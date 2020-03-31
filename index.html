@@ -1,20 +1,254 @@
+
 <!DOCTYPE html>
 <html>
 <head>
     <title>Altrove</title>
+        <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.11.1/tachyons.min.css" integrity="sha256-XiJ+PedljEmPP2VaQzSzekfCZdPr0fpqmh9dY6kpsuQ=" crossorigin="anonymous" />
 <style type="text/css">
-    html, body {
-        margin:0;
-        padding: 0;
-    }
-    div {background: rgb(0,0,0);
-background: repeating-linear-gradient(to left, #f6e823 0px, #f6e823 40px, black 40px, black 80px);
-height: 20px;
-width: 100%}
+html, body {
+    margin:0;
+    padding: 0;
+    
+}
+body {
+    font-family: JetBrainsMono;
+}
+h2 {
+    text-transform: uppercase;
+    display: inline-block;
+    box-shadow: 0 10px 0 0 rgba(255,56,96,0), inset 0px -0.4em #f6e823;
+    margin: 1rem 0;
+    font-size: 1.7rem !important
+}
+.team h2{
+    text-transform: uppercase;
+    display: inline-block;
+    box-shadow: 0 10px 0 0 rgba(255,56,96,0), inset 0px -0.4em #fff;
+}
+#topbar {
+    background: rgb(0,0,0);
+    background: repeating-linear-gradient(to left, #f6e823 0px, #f6e823 120px, black 120px, black 240px);
+    height: 16px;
+    width: 100%
+}
+@font-face {
+    font-family: JetBrainsMono;
+    src: url(font/JetBrainsMono-Regular.woff2) format("woff2"), url(font/JetBrainsMono-Regular.woff) format("woff"), url(font/JetBrainsMono-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: JetBrainsMonoItalic;
+    src: url(font/JetBrainsMono-Italic.woff2) format("woff2"), url(font/JetBrainsMono-Italic.woff) format("woff"), url(font/JetBrainsMono-Italic.ttf) format("truetype");
+    font-weight: 400;
+    font-style: italic
+}
+
+@font-face {
+    font-family: JetBrainsMono;
+    src: url(font/JetBrainsMono-Medium.woff2) format("woff2"), url(font/JetBrainsMono-Medium.woff) format("woff"), url(font/JetBrainsMono-Medium.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: JetBrainsMono;
+    src: url(font/JetBrainsMono-Medium-Italic-37e6fa10011defbbc95c128e4eb3dcf5.woff2) format("woff2"), url(font/JetBrainsMono-Medium-Italic-b24bc96d1b34399d53988068bbab2917.woff) format("woff"), url(font/JetBrainsMono-Medium-Italic-fde36f0ab7b80968199d8688f0c9b41f.ttf) format("truetype");
+    font-weight: 500;
+    font-style: italic
+}
+
+@font-face {
+    font-family: JetBrainsMono;
+    src: url(font/JetBrainsMono-Bold.woff2) format("woff2"), url(font/JetBrainsMono-Bold.woff) format("woff"), url(font/JetBrainsMono-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: JetBrainsMono;
+    src: url(font/JetBrainsMono-Bold-Italic-7ad3a5eea90a7326b63f1efc36c61f2c.woff2) format("woff2"), url(font/JetBrainsMono-Bold-Italic-1361a098abbc55e5b12ddf4b06937a31.woff) format("woff"), url(font/JetBrainsMono-Bold-Italic-902fef2fd5ab0de71492a85fd47c8b24.ttf) format("truetype");
+    font-weight: 700;
+    font-style: italic
+}
+
+@font-face {
+    font-family: JetBrainsMono;
+    src: url(font/JetBrainsMono-ExtraBold.woff2) format("woff2"), url(font/JetBrainsMono-ExtraBold-b74cc8e29fc5c69d220af937ce3a6320.woff) format("woff"), url(font/JetBrainsMono-ExtraBold-f6b4d1eefa96369a1b53f4af48eb000d.ttf) format("truetype");
+    font-weight: 900;
+    font-style: normal
+}
+
+@font-face {
+    font-family: JetBrainsMono;
+    src: url(font/JetBrainsMono-ExtraBold-Italic-500d9fa7504d0f03c5c916bbb833fab9.woff2) format("woff2"), url(font/JetBrainsMono-ExtraBold-Italic-ef06ab60a0b7b6127afa46101bfd05d9.woff) format("woff"), url(font/JetBrainsMono-ExtraBold-Italic-99a4eb3a0ddbc5eb4a6e6b3f75dc0635.ttf) format("truetype");
+    font-weight: 900;
+    font-style: italic
+}
+.lh-copy {
+    max-width: 800px
+}
+/** {
+    outline: 1px solid #f01
+}*/
+article {
+    margin-bottom: 3rem
+}
 </style>
 </head>
-<body>
-<div></div>
-<img src="wip.jpg" style="min-width: 50%; max-width: 80%; display: block; margin: 30vh auto 0 auto">
+<body class="">
+<div id="topbar"></div>
+<header class="ph3 ph5-ns mt5">
+<h1><img src="assets/logo.svg" alt="Working for Altrove" style="width: 220px"></h1>
+</header>
+<main class="mw9">
+<article class="ph3 ph5-ns">
+  <h2>Il progetto</h2>
+  <p class="lh-copy">
+    A cavallo fra il 2019 e il 2020, l’Associazione Mercanti di Idee vince il bando per la gestione del Teatro Altrove, centro culturale storico del quartiere della Maddalena a Genova. 
+  </p>
+  <p class="lh-copy">
+    Il progetto Altrove si fonda su quattro termini chiave, che ne costituiscono i punti cardinali: etica, positività, innovazione e connessioni. L’obbiettivo del progetto è quello di trasformare l’Altrove in un punto di riferimento per il quartiere della Maddalena, proponendo una realtà inclusiva e ispirante per studenti, giovani, famiglie, cittadini. Per fare questo, l’attività si strutturerà su più livelli, organizzando eventi che variano dalla divulgazione scientifica al food, dalle iniziative sociali alle espressioni artistiche.
+  </p>
+</article>
+
+<article class="ph3 ph5-ns">
+  <h2 class="f3 f2-m f1-l">La vision</h2>
+  <p class="lh-copy">
+    Il fine ultimo del progetto è quello di dimostrare che <strong>esiste un altro modo</strong>: un altro modo di pensare, un altro modo di mangiare, un altro modo di stare in società. <strong>Esiste un altro mo(n)do, e la soglia dell’Altrove sarà un portale per accedervi.</strong>
+  </p>
+  <p class="lh-copy">
+    La vision dell’Associazione, con il progetto Altrove, è quello di dare vita a un ambiente vivibile, creativo e inclusivo, grazie anche alla Call for Ideas aperta a tutte le associazioni e i privati che vogliono collaborare.
+  </p>
+
+</article>
+<article class="ph3 ph5-ns mw8">
+    <h2 class="f3 f2-m f1-l">Partecipa al progetto</h2>
+    <div class="cf">
+        <div class='square-box'>
+            <a href="#" class='square-content'><div><span>Stage</span></div></a>
+        </div>
+        <div class='square-box'>
+            <a href="#" class='square-content'><div><span>Voice</span></div></a>
+        </div>
+        <div class='square-box'>
+            <a href="#" class='square-content'><div><span>Food</span></div></a>
+        </div>
+    </div>
+
+<!-- <div class="flex-ns flex-row-ns justify-between-ns mw8-ns mb4">
+    <div class="w-third-ns tc">
+        <span class="mr3-ns f3 ttu" style="padding-top: 50%; padding-bottom: 50%; border: 1px solid black; display: block">ciao</span>
+    </div>
+    <div class="w-third-ns tc">
+        <span class="mr3-ns f3 ttu" style="padding-top: 50%; padding-bottom: 50%; border: 1px solid black; display: block">ciao</span>
+    </div>
+    <div class="w-third-ns tc">
+        <span class="mr3-ns f3 ttu" style="padding-top: 50%; padding-bottom: 50%; border: 1px solid black; display: block">ciao</span>
+    </div>
+</div> -->
+
+</article>
+
+</div>
+<div class="team pb3 cf" style="background: #f6e823">
+<article class="ph3 ph5-ns">
+  <h2 class="f3 f2-m f1-l mt5">Il team</h2>
+  <p class="lh-copy">
+    <strong>L’Associazione Mercanti di Idee</strong> è una realtà senza scopo di lucro che nasce nel 2015 con l’obiettivo di portare a Genova un evento in stile TED (Technology, Entertainment & Design), il format di conferenze divulgative più conosciuto al mondo. Nel 2019 <strong>TEDxGenova</strong> vince il bando del Comune di Genova – “Genova dei Festival”. In 4 anni di attività l’Associazione riesce a raccogliere fondi e partnership importanti. Il totale è di più di 80 partner (locali e nazionali) coinvolti nei 9 eventi organizzati.</p>
+      <p class="lh-copy">
+    Il TEAM è attualmente composto completamente da volontari, professionisti nel loro ambito di competenza. Parteciperanno al progetto per l’Altrove:<br><br>
+    <strong>Davide Pignone – presidente dell’Associazione</strong><br>
+    Project management e curatela.<br><br>
+    <strong>Ludovica Pellizzetti</strong><br>
+    Supporto esecutivo e gestione del personale.<br><br>
+    <strong>Annapaola Vacanti</strong><br>
+    Direzione artistica e branding.<br><br>
+    <strong>Daniele Bonanzinga</strong><br>
+    Comunicazione e content creation.<br><br>
+    <strong>Luca Bobbio</strong><br>
+    Supporto tecnico e digitale.
+  </p>
+  <p class="lh-copy">
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+    vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+    no sea takimata sanctus est Lorem ipsum dolor sit amet.
+  </p>
+</article>
+</div>
+
+</main>
+
+<footer class="pv4 ph5 mid-gray w-100 bg-black">
+  <small class="f6 db white mv3">© 2020 Mercanti di Idee</small>
+  
+</footer>
+<style type="text/css">
+    .square-content {
+    color: white;
+    border: 1px solid black;
+    margin: .5rem;
+    display: block
+
+}
+.square-content span {
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    padding: 2rem;
+}
+.square-box{
+    overflow: hidden;
+    background: #fff;
+}
+
+@media screen and (min-width:30em) {
+.square-box{
+    position: relative;
+    width: 33%;
+    overflow: hidden;
+    background: #fff;
+    float: left;
+}
+.square-box:before{
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+.square-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: white;
+    border: 1px solid black;
+    margin: .5rem;
+}
+.square-content div {
+   display: table;
+   width: 100%;
+   height: 100%;
+}
+.square-content span {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1.7rem
+    }
+}
+
+
+</style>
+
 </body>
 </html>
