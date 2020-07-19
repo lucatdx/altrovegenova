@@ -1,0 +1,153 @@
+html, body {
+    margin:0;
+    padding: 0;
+    
+}
+body {
+    font-family: JetBrainsMono;
+}
+h2 {
+    text-transform: uppercase;
+    display: inline-block;
+    box-shadow: 0 10px 0 0 rgba(255,56,96,0), inset 0px -0.4em #f6e823;
+    margin: 1rem 0;
+    font-size: 1.7rem !important
+}
+.team h2{
+    text-transform: uppercase;
+    display: inline-block;
+    box-shadow: 0 10px 0 0 rgba(255,56,96,0), inset 0px -0.4em #fff;
+}
+#topbar {
+    background: rgb(0,0,0);
+    background: repeating-linear-gradient(to left, #f6e823 0px, #f6e823 120px, black 120px, black 240px);
+    height: 16px;
+    width: 100%
+}
+@font-face {
+    font-family: JetBrainsMono;
+    src: url(font/JetBrainsMono-Regular.woff2) format("woff2"), url(font/JetBrainsMono-Regular.woff) format("woff"), url(font/JetBrainsMono-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: JetBrainsMonoItalic;
+    src: url(font/JetBrainsMono-Italic.woff2) format("woff2"), url(font/JetBrainsMono-Italic.woff) format("woff"), url(font/JetBrainsMono-Italic.ttf) format("truetype");
+    font-weight: 400;
+    font-style: italic
+}
+
+@font-face {
+    font-family: JetBrainsMono;
+    src: url(font/JetBrainsMono-Medium.woff2) format("woff2"), url(font/JetBrainsMono-Medium.woff) format("woff"), url(font/JetBrainsMono-Medium.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: JetBrainsMono;
+    src: url(font/JetBrainsMono-Medium-Italic-37e6fa10011defbbc95c128e4eb3dcf5.woff2) format("woff2"), url(font/JetBrainsMono-Medium-Italic-b24bc96d1b34399d53988068bbab2917.woff) format("woff"), url(font/JetBrainsMono-Medium-Italic-fde36f0ab7b80968199d8688f0c9b41f.ttf) format("truetype");
+    font-weight: 500;
+    font-style: italic
+}
+
+@font-face {
+    font-family: JetBrainsMono;
+    src: url(font/JetBrainsMono-Bold.woff2) format("woff2"), url(font/JetBrainsMono-Bold.woff) format("woff"), url(font/JetBrainsMono-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: JetBrainsMono;
+    src: url(font/JetBrainsMono-Bold-Italic-7ad3a5eea90a7326b63f1efc36c61f2c.woff2) format("woff2"), url(font/JetBrainsMono-Bold-Italic-1361a098abbc55e5b12ddf4b06937a31.woff) format("woff"), url(font/JetBrainsMono-Bold-Italic-902fef2fd5ab0de71492a85fd47c8b24.ttf) format("truetype");
+    font-weight: 700;
+    font-style: italic
+}
+
+@font-face {
+    font-family: JetBrainsMono;
+    src: url(font/JetBrainsMono-ExtraBold.woff2) format("woff2"), url(font/JetBrainsMono-ExtraBold-b74cc8e29fc5c69d220af937ce3a6320.woff) format("woff"), url(font/JetBrainsMono-ExtraBold-f6b4d1eefa96369a1b53f4af48eb000d.ttf) format("truetype");
+    font-weight: 900;
+    font-style: normal
+}
+
+@font-face {
+    font-family: JetBrainsMono;
+    src: url(font/JetBrainsMono-ExtraBold-Italic-500d9fa7504d0f03c5c916bbb833fab9.woff2) format("woff2"), url(font/JetBrainsMono-ExtraBold-Italic-ef06ab60a0b7b6127afa46101bfd05d9.woff) format("woff"), url(font/JetBrainsMono-ExtraBold-Italic-99a4eb3a0ddbc5eb4a6e6b3f75dc0635.ttf) format("truetype");
+    font-weight: 900;
+    font-style: italic
+}
+.lh-copy {
+/*
+    max-width: 800px;
+    margin: auto;
+*/
+    text-align: justify;
+    margin: 2rem 0;
+}
+/** {
+    outline: 1px solid #f01
+}*/
+article {
+    margin-bottom: 3rem
+}
+   .square-content {
+    color: white;
+    border: 2px solid black !important;
+    margin: .5rem;
+    display: block
+
+}
+.square-content span {
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    padding: 2rem;
+}
+.square-box{
+    overflow: hidden;
+    background: #fff;
+}
+
+@media screen and (min-width:30em) {
+.square-box{
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+    background: #fff;
+    float: left;
+}
+.square-box:before{
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+.square-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: white;
+    border: 1px solid black;
+    margin: .5rem;
+}
+.square-content div {
+   display: table;
+   width: 100%;
+   height: 100%;
+}
+.square-content span {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        color: #000;
+        text-transform: uppercase;
+        font-size: 1.7rem
+    }
+}
