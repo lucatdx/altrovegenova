@@ -155,3 +155,7 @@ article {
         padding-left: 2rem !important;
     padding-right: 2rem !important;
 }
+
+.tg, .lh-copy {
+    text-align: left
+}
