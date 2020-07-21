@@ -151,3 +151,7 @@ article {
         font-size: 1.7rem
     }
 }
+.ph3 {
+        padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
