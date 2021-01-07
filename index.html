@@ -38,13 +38,13 @@
 
 <main class="mw8-ns mw-100-m center">
 <article class="ph3 ph5-ns">
-  <h2>Il progetto</h2>
-  <p class="lh-copy">
+  <button class="collapsible"><h2>Il progetto</h2></button>
+  <div class="content"><p class="lh-copy">
     A cavallo fra il 2019 e il 2020, l’Associazione Mercanti di Idee vince il bando per la gestione del Teatro Altrove, centro culturale storico del quartiere della Maddalena a Genova. 
   </p>
   <p class="lh-copy">
     Il progetto Altrove si fonda su quattro termini chiave, che ne costituiscono i punti cardinali: etica, positività, innovazione e connessioni. L’obiettivo del progetto è quello di trasformare l’Altrove in un punto di riferimento per il quartiere della Maddalena, proponendo una realtà inclusiva e ispirante per studenti, giovani, famiglie, cittadini. Per fare questo, l’attività si strutturerà su più livelli, organizzando eventi che variano dalla divulgazione scientifica al food, dalle iniziative sociali alle espressioni artistiche.
-  </p>
+  </p></div>
 </article>
 
 <article class="ph3 ph5-ns">
@@ -130,6 +130,23 @@ ScrollReveal().reveal('article', {
   gtag('js', new Date());
 
   gtag('config', 'UA-88440122-3');
+</script>
+	
+	<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
 </script>
 
 </body>
