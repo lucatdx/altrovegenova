@@ -26,56 +26,56 @@ h2 {
 }
 @font-face {
     font-family: JetBrainsMono;
-    src: url(/Users/annapaolavacanti/Documents/GitHub/altrovegenova/assets/font/JetBrainsMono-Regular.woff2) format("woff2"), url(/Users/annapaolavacanti/Documents/GitHub/altrovegenova/assets/font/JetBrainsMono-Regular.woff) format("woff"), url(/Users/annapaolavacanti/Documents/GitHub/altrovegenova/assets/font/JetBrainsMono-Regular.ttf) format("truetype");
+    src: url(../../../../Downloads/altrovegenova-master/assets/font/JetBrainsMono-Regular.woff2) format("woff2"), url(../../../../Downloads/altrovegenova-master/assets/font/JetBrainsMono-Regular.woff) format("woff"), url(../../../../Downloads/altrovegenova-master/assets/font/JetBrainsMono-Regular.ttf) format("truetype");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: JetBrainsMonoItalic;
-    src: url(/Users/annapaolavacanti/Documents/GitHub/altrovegenova/assets/font/JetBrainsMono-Italic.woff2) format("woff2"), url(/Users/annapaolavacanti/Documents/GitHub/altrovegenova/assets/font/JetBrainsMono-Italic.woff) format("woff"), url(/Users/annapaolavacanti/Documents/GitHub/altrovegenova/assets/font/JetBrainsMono-Italic.ttf) format("truetype");
+    src: url(../../../../Downloads/altrovegenova-master/assets/font/JetBrainsMono-Italic.woff2) format("woff2"), url(../../../../Downloads/altrovegenova-master/assets/font/JetBrainsMono-Italic.woff) format("woff"), url(../../../../Downloads/altrovegenova-master/assets/font/JetBrainsMono-Italic.ttf) format("truetype");
     font-weight: 400;
     font-style: italic
 }
 
 @font-face {
     font-family: JetBrainsMono;
-    src: url(/Users/annapaolavacanti/Documents/GitHub/altrovegenova/assets/font/JetBrainsMono-Medium.woff2) format("woff2"), url(/Users/annapaolavacanti/Documents/GitHub/altrovegenova/assets/font/JetBrainsMono-Medium.woff) format("woff"), url(/Users/annapaolavacanti/Documents/GitHub/altrovegenova/assets/font/JetBrainsMono-Medium.ttf) format("truetype");
+    src: url(../../../../Downloads/altrovegenova-master/assets/font/JetBrainsMono-Medium.woff2) format("woff2"), url(../../../../Downloads/altrovegenova-master/assets/font/JetBrainsMono-Medium.woff) format("woff"), url(../../../../Downloads/altrovegenova-master/assets/font/JetBrainsMono-Medium.ttf) format("truetype");
     font-weight: 500;
     font-style: normal
 }
 
 @font-face {
     font-family: JetBrainsMono;
-    src: url(/Users/annapaolavacanti/Documents/GitHub/altrovegenova/assets/font/JetBrainsMono-Medium-Italic-37e6fa10011defbbc95c128e4eb3dcf5.woff2) format("woff2"), url(../../../../Downloads/altrovegenova-master/assets/font/JetBrainsMono-Medium-Italic-b24bc96d1b34399d53988068bbab2917.woff) format("woff"), url(/Users/annapaolavacanti/Documents/GitHub/altrovegenova/assets/font/JetBrainsMono-Medium-Italic-fde36f0ab7b80968199d8688f0c9b41f.ttf) format("truetype");
+    src: url(../../../../Downloads/altrovegenova-master/assets/font/JetBrainsMono-Medium-Italic-37e6fa10011defbbc95c128e4eb3dcf5.woff2) format("woff2"), url(../../../../Downloads/altrovegenova-master/assets/font/JetBrainsMono-Medium-Italic-b24bc96d1b34399d53988068bbab2917.woff) format("woff"), url(../../../../Downloads/altrovegenova-master/assets/font/JetBrainsMono-Medium-Italic-fde36f0ab7b80968199d8688f0c9b41f.ttf) format("truetype");
     font-weight: 500;
     font-style: italic
 }
 
 @font-face {
     font-family: JetBrainsMono;
-    src: url(/Users/annapaolavacanti/Documents/GitHub/altrovegenova/assets/font/JetBrainsMono-Bold.woff2) format("woff2"), url(/Users/annapaolavacanti/Documents/GitHub/altrovegenova/assets/font/JetBrainsMono-Bold.woff) format("woff"), url(/Users/annapaolavacanti/Documents/GitHub/altrovegenova/assets/font/JetBrainsMono-Bold.ttf) format("truetype");
+    src: url(../../../../Downloads/altrovegenova-master/assets/font/JetBrainsMono-Bold.woff2) format("woff2"), url(../../../../Downloads/altrovegenova-master/assets/font/JetBrainsMono-Bold.woff) format("woff"), url(../../../../Downloads/altrovegenova-master/assets/font/JetBrainsMono-Bold.ttf) format("truetype");
     font-weight: 700;
     font-style: normal
 }
 
 @font-face {
     font-family: JetBrainsMono;
-    src: url(/Users/annapaolavacanti/Documents/GitHub/altrovegenova/assets/font/JetBrainsMono-Bold-Italic-7ad3a5eea90a7326b63f1efc36c61f2c.woff2) format("woff2"), url(/Users/annapaolavacanti/Documents/GitHub/altrovegenova/assets/font/JetBrainsMono-Bold-Italic-1361a098abbc55e5b12ddf4b06937a31.woff) format("woff"), url(/Users/annapaolavacanti/Documents/GitHub/altrovegenova/assets/font/JetBrainsMono-Bold-Italic-902fef2fd5ab0de71492a85fd47c8b24.ttf) format("truetype");
+    src: url(../../../../Downloads/altrovegenova-master/assets/font/JetBrainsMono-Bold-Italic-7ad3a5eea90a7326b63f1efc36c61f2c.woff2) format("woff2"), url(../../../../Downloads/altrovegenova-master/assets/font/JetBrainsMono-Bold-Italic-1361a098abbc55e5b12ddf4b06937a31.woff) format("woff"), url(../../../../Downloads/altrovegenova-master/assets/font/JetBrainsMono-Bold-Italic-902fef2fd5ab0de71492a85fd47c8b24.ttf) format("truetype");
     font-weight: 700;
     font-style: italic
 }
 
 @font-face {
     font-family: JetBrainsMono;
-    src: url(/Users/annapaolavacanti/Documents/GitHub/altrovegenova/assets/font/JetBrainsMono-ExtraBold.woff2) format("woff2"), url(/Users/annapaolavacanti/Documents/GitHub/altrovegenova/assets/font/JetBrainsMono-ExtraBold-b74cc8e29fc5c69d220af937ce3a6320.woff) format("woff"), url(/Users/annapaolavacanti/Documents/GitHub/altrovegenova/assets/font/JetBrainsMono-ExtraBold-f6b4d1eefa96369a1b53f4af48eb000d.ttf) format("truetype");
+    src: url(../../../../Downloads/altrovegenova-master/assets/font/JetBrainsMono-ExtraBold.woff2) format("woff2"), url(../../../../Downloads/altrovegenova-master/assets/font/JetBrainsMono-ExtraBold-b74cc8e29fc5c69d220af937ce3a6320.woff) format("woff"), url(../../../../Downloads/altrovegenova-master/assets/font/JetBrainsMono-ExtraBold-f6b4d1eefa96369a1b53f4af48eb000d.ttf) format("truetype");
     font-weight: 900;
     font-style: normal
 }
 
 @font-face {
     font-family: JetBrainsMono;
-    src: url(/Users/annapaolavacanti/Documents/GitHub/altrovegenova/assets/font/JetBrainsMono-ExtraBold-Italic-500d9fa7504d0f03c5c916bbb833fab9.woff2) format("woff2"), url(/Users/annapaolavacanti/Documents/GitHub/altrovegenova/assets/font/JetBrainsMono-ExtraBold-Italic-ef06ab60a0b7b6127afa46101bfd05d9.woff) format("woff"), url(/Users/annapaolavacanti/Documents/GitHub/altrovegenova/assets/font/JetBrainsMono-ExtraBold-Italic-99a4eb3a0ddbc5eb4a6e6b3f75dc0635.ttf) format("truetype");
+    src: url(../../../../Downloads/altrovegenova-master/assets/font/JetBrainsMono-ExtraBold-Italic-500d9fa7504d0f03c5c916bbb833fab9.woff2) format("woff2"), url(../../../../Downloads/altrovegenova-master/assets/font/JetBrainsMono-ExtraBold-Italic-ef06ab60a0b7b6127afa46101bfd05d9.woff) format("woff"), url(../../../../Downloads/altrovegenova-master/assets/font/JetBrainsMono-ExtraBold-Italic-99a4eb3a0ddbc5eb4a6e6b3f75dc0635.ttf) format("truetype");
     font-weight: 900;
     font-style: italic
 }
